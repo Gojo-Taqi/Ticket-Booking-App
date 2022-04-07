@@ -8,7 +8,7 @@ const bookingSchema = new mongoose.Schema(
         },
         bus: {
             type: mongoose.Schema.Types.ObjectId,
-            ref: 'Driver'
+            ref: 'Bus'
         },
         totalPrice: {
             type: String
